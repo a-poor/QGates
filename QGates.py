@@ -67,7 +67,6 @@ HAD = np.array([[1,1],[1,-1]]) * np.exp2(-1/2)
 
 
 
-
 def state(arr):
     """Creates a state vector
     from either an iterable of
@@ -85,5 +84,19 @@ def state(arr):
         else:
             s = tens(s,QB1)
     return s
+
+
+
+
+##### Bell States #####
+
+BELL00 = 2**(-1/2)*state((0,0)) + 2**(-1/2)*state((1,1))
+BELL01 = 2**(-1/2)*state((0,1)) + 2**(-1/2)*state((1,0))
+BELL10 = 2**(-1/2)*state((0,0)) - 2**(-1/2)*state((1,1))
+BELL11 = 2**(-1/2)*state((0,1)) - 2**(-1/2)*state((1,0))
+
+
+
+
 
 
