@@ -3,6 +3,10 @@ import numpy as np
 
 
 def tens(a,b,*args):
+    """
+    Computes the tensor product of
+    two (or more) vectors/matrices.
+    """
     res = np.kron(a,b)
     for c in args:
         res = np.kron(res,c)
@@ -65,6 +69,13 @@ HAD = np.array([[1,1],[1,-1]]) * np.exp2(-1/2)
 
 
 def state(arr):
+    """Creates a state vector
+    from either an iterable of
+    1s and 0s (or from an int that
+    will be converted to a state
+    vector based on its binary
+    representation.
+    """
     if isinstance(arr,int):
         arr = [int(b) for b in list(bin(arr)[2:])]
     s = QB1 if arr[0] else QB0
