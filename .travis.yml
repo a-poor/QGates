@@ -1,0 +1,22 @@
+language: python
+python:
+- '3.6'
+- '3.7'
+- '3.8'
+branches:
+  only:
+    - master
+deploy:
+  provider: pypi
+  username: __token__
+  password:
+    secure: vP2tZtU1qYu2bqd81C6N8MjllfFrThz1WYQEweETx25MUGsrI8BoAnqggWt1dRxUFLANZvcCyPmy9XQhludHyl0sruYSeYlgrKBtOgpiDsh58M7PjX8I5jK7teuvyEMOV/+E2jtbwJe3+1RuMDpCyf19MyZBc4Z1PtV1bKCd9zPSGRnHKgeJuol1s6fMJO1LFdmokmD8DaGQarcvnCwcpd/ObJdhJFhGQR12tktov/8kX4P8ThX0NYAucrEnZ4WeFdPtO2dX58hiuNrsZOAtMpjWEIsDV/QAzPKD1n4B0s6H03F/BSJY8WKPCnJdoY9xNkyqESFdQ8OxNqhgpVUMQcgCYifotCkDH575J4M4U23wTdvbjv4VEaf5MvgItzFqkEWHUS+usABbvGEC5+QuDsnDvE6hkSPffW3bbqJAOYMPacUc9COpXtEtP8TJDBK7B99myLDnc0ViqeKd94+QG0YjdsRLcDEiBquXVqd0NdBErDokUChEsclqBSNlB0j5NzE4wkBWvv+Uj0Ws9VeRSAi2kauFqB/1NkRGkQkgizGZvoTnkrwCUEm0PXguv9FpnqW/luzBnV4Spsj0v4j/UMfc8UHHUrlgjDAM7eCQtxANaa/ELd4HL/X7+4BgORyCAdpA07gJVz3MKm+3nS+il233YcYB2LiVoTFxIaZ98mY=
+  on:
+    tags: true
+script:
+  - pytest --cov=./
+install:
+    - pip install -r requirements.txt
+    - pip install -e .
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
