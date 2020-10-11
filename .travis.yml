@@ -6,6 +6,7 @@ python:
 branches:
   only:
     - master
+    - /^v\d+\.\d+\.\d+.*$/
 deploy:
   provider: pypi
   username: __token__
