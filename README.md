@@ -41,7 +41,7 @@ Creates a state vector from either an iterable of 1s and 0s (or from an int that
 
 `qgates.conjugate(v)`
 
-Computes the [complex conjugate](https://en.wikipedia.org/wiki/Complex_conjugate) of a number or  
+Computes the [complex conjugate](https://en.wikipedia.org/wiki/Complex_conjugate) of a number or numpy array.
 
 ### State Vectors
 
