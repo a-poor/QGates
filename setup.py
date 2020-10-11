@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="qgates",
-    version="0.0.3",
+    version="0.0.4",
     author="Austin Poor",
     author_email="austinpoor@gmail.com",
     description="Helper library for quantum matrix math",
