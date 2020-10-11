@@ -11,7 +11,7 @@ from operator import matmul as _matmul
 
 import numpy as np
 
-__version__ = "0.0.5"
+__version__ = "0.1.0"
 
 
 def tens(a: Union[int,float,list,np.ndarray],*b: Union[int,float,list,np.ndarray]):
