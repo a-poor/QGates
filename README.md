@@ -49,45 +49,45 @@ Computes the [complex conjugate](https://en.wikipedia.org/wiki/Complex_conjugate
 
 `qgates.QB0`: Quantum state 0 
 
-![QB0](qubit-images/qb0.svg)
+![](qubit-images/qb0.svg)
 
 `qgates.QB1`: Quantum state 1
 
-![QB0](qubit-images/qb1.svg)
+![](qubit-images/qb1.svg)
 
 `qgates.QB00`: Quantum state 00
 
-![QB00](qubit-images/qb00.svg)
+![](qubit-images/qb00.svg)
 
 `qgates.QB01`: Quantum state 01
 
-![QB01](qubit-images/qb01.svg)
+![](qubit-images/qb01.svg)
 
 `qgates.QB10`: Quantum state 10
 
-![QB10](qubit-images/qb10.svg)
+![](qubit-images/qb10.svg)
 
 `qgates.QB11`: Quantum state 11
 
-![QB11](qubit-images/qb11.svg)
+![](qubit-images/qb11.svg)
 
 [__Bell States__](https://en.wikipedia.org/wiki/Bell_state)
 
 `qgates.BELL00`: Bell state 00
 
-![BELL00](qubit-images/bell00.svg)
+![](qubit-images/bell00.svg)
 
 `qgates.BELL01`: Bell state 01
 
-![BELL01](qubit-images/bell01.svg)
+![](qubit-images/bell01.svg)
 
 `qgates.BELL10`: Bell state 10
 
-![BELL10](qubit-images/bell10.svg)
+![](qubit-images/bell10.svg)
 
 `qgates.BELL11`: Bell state 11
 
-![BELL11](qubit-images/bell11.svg)
+![](qubit-images/bell11.svg)
 
 
 ### Gate Matrices
