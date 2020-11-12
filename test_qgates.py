@@ -1,7 +1,4 @@
 
 import qgates
 
-def test_empty():
-    assert True
-
-    
+def test_empty(): assert True
