@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.abspath('..'))
 project = 'QGates'
 copyright = '2020, Austin Poor'
 author = 'Austin Poor'
-version = "1.0.3"
+version = "1.1.0"
 
 
 # -- General configuration ---------------------------------------------------
