@@ -30,13 +30,13 @@ version = "1.1.1"
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    # 'sphinx.ext.mathjax'
+    'sphinx.ext.mathjax'
 ]
 
-# mathjax_path = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
-# mathjax_config = {
-#     "extensions": ["braket"]
-# }
+mathjax_path = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+mathjax_config = {
+    "extensions": ["braket"]
+}
 
 master_doc = 'index'
 
