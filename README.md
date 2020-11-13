@@ -1,5 +1,7 @@
 # QGates
 
+![A fun quantum gif](https://media2.giphy.com/media/AvCPKNLbH6FoI/giphy.gif)
+
 [![Build Status](https://travis-ci.org/a-poor/QGates.svg?branch=master)](https://travis-ci.org/a-poor/QGates)
 [![PyPI](https://img.shields.io/pypi/v/qgates)](https://pypi.org/project/qgates/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/qgates)](https://pypi.org/project/qgates/)
