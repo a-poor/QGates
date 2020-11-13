@@ -1,2 +1,2 @@
-qgates==1.1.1
+qgates==1.1.2
 numpy
