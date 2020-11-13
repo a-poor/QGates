@@ -3,8 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+QGates
+=======
+
 Welcome to QGates's documentation!
-==================================
+----------------------------------
+
+.. image:: https://media2.giphy.com/media/AvCPKNLbH6FoI/giphy.gif
 
 .. toctree::
    :maxdepth: 4

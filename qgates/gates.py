@@ -52,5 +52,5 @@ TOFFOLI = (
     np.kron(np.kron(np.kron(IDEN,SWAP),IDEN),IDEN) @
     np.kron(np.kron(COPY,COPY),IDEN)
     )
-#: 2x2 Quantum HADAMARD gate :math:`\begin{bmatrix} \frac{1}{\sqrt{2}} && \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} && \frac{-11}{\sqrt{2}} \end{bmatrix}`
+#: 2x2 Quantum HADAMARD gate :math:`\begin{bmatrix} \frac{1}{\sqrt{2}} && \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} && \frac{-1}{\sqrt{2}} \end{bmatrix}`
 HAD = np.array([[1,1],[1,-1]]) * np.exp2(-1/2)
