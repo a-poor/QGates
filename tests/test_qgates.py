@@ -1,6 +1,6 @@
 
 import qgates
-from qgates import state, gates, qfn
+from qgates import states, gates, qfn
 
 def test_state_tensor():
     assert (qfn.tens(
@@ -25,7 +25,7 @@ def test_matmul():
         gates.HAD,
         gates.HAD,
         states.QB0
-    ) == states.QB0).all()
+    ).round(16).astype("int") == states.QB0).all()
     assert (qfn.matmul(
         gates.NOT,
         states.QB0
