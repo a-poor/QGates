@@ -73,9 +73,9 @@ Examples
 .. image:: https://mybinder.org/badge_logo.svg
  :target: https://mybinder.org/v2/gh/a-poor/QGates/HEAD?filepath=examples%2Fqgates-example.ipynb
 
-Check out the examples notebook in the GitHub repo, `here <https://github.com/a-poor/QGates/blob/master/examples/qgates-example.ipynb>`.
+Check out the examples notebook in the GitHub repo, `here <https://github.com/a-poor/QGates/blob/master/examples/qgates-example.ipynb>`_.
 
-Or open the notebook in `binder <https://mybinder.org/v2/gh/a-poor/QGates/HEAD?filepath=examples%2Fqgates-example.ipynb>`.
+Or open the notebook in `binder <https://mybinder.org/v2/gh/a-poor/QGates/HEAD?filepath=examples%2Fqgates-example.ipynb>`_.
 
 ------------
 
