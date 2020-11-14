@@ -21,8 +21,8 @@ Welcome to QGates's documentation!
 About
 ------
 
-.. image:: https://travis-ci.org/a-poor/QGates.svg?branch=master
-   :target: https://travis-ci.org/a-poor/QGates
+.. image:: https://travis-ci.com/a-poor/QGates.svg?branch=master
+   :target: https://travis-ci.com/a-poor/QGates
    :alt: Build Status
 .. image:: https://img.shields.io/pypi/v/qgates
    :target: https://pypi.org/project/qgates
